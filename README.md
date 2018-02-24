@@ -15,4 +15,5 @@
 详细Bootstrap查看[http://getbootstrap.com](http://getbootstrap.com/)
 
 ---
-&copy; 2017 - 2018 [Deyou Lee](http://hdkz.me/). Licensed under the Apache License, Version 2.0.
+&copy; 2017 - 2018 
+
