@@ -1,0 +1,6 @@
+# User defined
+.idea/
+.draft/
+*.bak
+.DS_Store
+CNAME

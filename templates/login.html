@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Description" content="Seer前端项目See">
+    <meta name="Author" content="Deyou Lee(lideyou) <deyoulee@126.com>">
+    <link rel="icon" href="../static/seer/img/favicon.ico">
+
+    <title>Seer-京东金融机器学习平台</title>
+
+    <!-- Styles -->
+    <!-- Bootstrap -->
+    <link href="../static/seer/components/bootswatch/yeti/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link href="../static/seer/components/fontawesome/css/fa-svg-with-js.css" rel="stylesheet">
+    <link href="../static/seer/components/flaticon/font/flaticon.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="row">
+                <div class="card card-body m-5">
+                    <div class="text-center mb-3">
+                        <h2 class="font-weight-bold">先知</h2>
+                        <h5 class="font-weight-bold">登陆先知，开始你的机器学习</h5>
+                    </div>
+
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <label for="username"></label>
+                                <input type="text" class="form-control" id="username" name="username"
+                                       value="" aria-describedby="username" placeholder="输入用户名"
+                                       required autofocus>
+                            </div>
+                            <small class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                </div>
+                                <label for="password"></label>
+                                <input type="password" class="form-control" id="password" name="password"
+                                       value="{{ password }}" aria-describedby="password" placeholder="输入密码"
+                                       required>
+                            </div>
+                            <small class="form-text text-muted text-right">
+                                <a href="http://erp.jd.com/" target="_blank">忘记密码？</a>
+                            </small>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary btn-block">登陆</button>
+                            <input type="hidden" name="next" value="{{ next }}"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="container d-flex border-top pt-4 my-md-5 pt-md-5">
+    <div class="mr-auto"> &copy; <a href="http://seer.jdfmgt.com/" target="_blank">Seer</a>
+        <script>document.write("2017 - " + new Date().getFullYear());</script>
+    </div>
+    <div>Powered by: <a href="https://jr.jd.com/" target="_blank">JDJR</a></div>
+</footer>
+
+<!-- JavaScript ================================================= -->
+<!-- Bootstrap -->
+<script src="../static/seer/components/jquery/js/jquery.slim.min.js"></script>
+<script src="../static/seer/components/popper/js/popper.min.js"></script>
+<script src="../static/seer/components/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Fontawesome -->
+<script src="../static/seer/components/fontawesome/js/fa-solid.min.js"></script>
+<script src="../static/seer/components/fontawesome/js/fontawesome.min.js"></script>
+
+</body>
+</html>
+
+
+

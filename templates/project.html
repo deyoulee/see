@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Description" content="Seer前端项目See">
+    <meta name="Author" content="Deyou Lee(lideyou) <deyoulee@126.com>">
+    <link rel="icon" href="../static/seer/img/favicon.ico">
+
+    <title>Seer-京东金融机器学习平台</title>
+
+    <!-- Styles -->
+    <!-- Bootstrap -->
+    <link href="../static/seer/components/bootswatch/yeti/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link href="../static/seer/components/fontawesome/css/fa-svg-with-js.css" rel="stylesheet">
+    <link href="../static/seer/components/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Seer core CSS -->
+    <link href="../static/seer/css/seer.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand p-2" href="../index.html"><img src="../static/seer/img/logo.svg"/> Seer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsSeer"
+            aria-controls="navbarsSeer" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsSeer">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-5 text-white active" href="#" id="navbarDropdownSearch"
+                   role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    当前项目
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownSearch">
+                    <div class="mx-auto w-75">
+                        <input type="text" class="form-control form-control-sm" placeholder="项目搜索">
+                    </div>
+                    <a class="dropdown-item" href="#">当前项目</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4 text-white" href="integration.html">数据集成</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4 text-white" href="data.html">数据管理</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4 text-white" href="development.html">数据开发</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4 text-white" href="project.html">项目管理</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4 text-white" href="ml.html">机器学习</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-5 text-white" href="#" id="navbarDropdown"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户名
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">用户中心</a>
+                    <a class="dropdown-item" href="#">帮助文档</a>
+                    <a class="dropdown-item" href="#">意见反馈</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="login.html">退出</a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+<div class="wrapper">
+    <nav class="sidebar">
+        <div class="d-flex justify-content-center sidebar-toggler-icon sidebar-collapse">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav nav-pills flex-column">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="tooltip" data-placement="right" title="项目配置">
+                    <i class="fas fa-cogs"></i><span class="px-1"><small>项目配置</small></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="tooltip" data-placement="right" title="成员管理">
+                    <i class="fas fa-users"></i><span class="px-1"><small>成员管理</small></span>
+
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="tooltip" data-placement="right" title="计算资源">
+                    <i class="fas fa-server"></i><span class="px-1"><small>计算资源</small></span>
+
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container-fluid main">
+        <div class="alert alert-success" role="alert">
+            This is a success alert—check it out!
+        </div>
+        <div class="alert alert-danger" role="alert">
+            This is a danger alert—check it out!
+        </div>
+        <div class="alert alert-warning" role="alert">
+            This is a warning alert—check it out!
+        </div>
+        <div class="alert alert-info" role="alert">
+            This is a info alert—check it out!
+        </div>
+
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1,001</td>
+                <td>Lorem</td>
+                <td>ipsum</td>
+                <td>dolor</td>
+                <td>sit</td>
+            </tr>
+            <tr>
+                <td>1,002</td>
+                <td>amet</td>
+                <td>consectetur</td>
+                <td>adipiscing</td>
+                <td>elit</td>
+            </tr>
+            <tr>
+                <td>1,003</td>
+                <td>Integer</td>
+                <td>nec</td>
+                <td>odio</td>
+                <td>Praesent</td>
+            </tr>
+            <tr>
+                <td>1,003</td>
+                <td>libero</td>
+                <td>Sed</td>
+                <td>cursus</td>
+                <td>ante</td>
+            </tr>
+            <tr>
+                <td>1,004</td>
+                <td>dapibus</td>
+                <td>diam</td>
+                <td>Sed</td>
+                <td>nisi</td>
+            </tr>
+            <tr>
+                <td>1,005</td>
+                <td>Nulla</td>
+                <td>quis</td>
+                <td>sem</td>
+                <td>at</td>
+            </tr>
+            <tr>
+                <td>1,006</td>
+                <td>nibh</td>
+                <td>elementum</td>
+                <td>imperdiet</td>
+                <td>Duis</td>
+            </tr>
+            <tr>
+                <td>1,007</td>
+                <td>sagittis</td>
+                <td>ipsum</td>
+                <td>Praesent</td>
+                <td>mauris</td>
+            </tr>
+            <tr>
+                <td>1,008</td>
+                <td>Fusce</td>
+                <td>nec</td>
+                <td>tellus</td>
+                <td>sed</td>
+            </tr>
+            <tr>
+                <td>1,009</td>
+                <td>augue</td>
+                <td>semper</td>
+                <td>porta</td>
+                <td>Mauris</td>
+            </tr>
+            <tr>
+                <td>1,010</td>
+                <td>massa</td>
+                <td>Vestibulum</td>
+                <td>lacinia</td>
+                <td>arcu</td>
+            </tr>
+            <tr>
+                <td>1,011</td>
+                <td>eget</td>
+                <td>nulla</td>
+                <td>Class</td>
+                <td>aptent</td>
+            </tr>
+            <tr>
+                <td>1,012</td>
+                <td>taciti</td>
+                <td>sociosqu</td>
+                <td>ad</td>
+                <td>litora</td>
+            </tr>
+            <tr>
+                <td>1,013</td>
+                <td>torquent</td>
+                <td>per</td>
+                <td>conubia</td>
+                <td>nostra</td>
+            </tr>
+            <tr>
+                <td>1,014</td>
+                <td>per</td>
+                <td>inceptos</td>
+                <td>himenaeos</td>
+                <td>Curabitur</td>
+            </tr>
+            <tr>
+                <td>1,015</td>
+                <td>sodales</td>
+                <td>ligula</td>
+                <td>in</td>
+                <td>libero</td>
+            </tr>
+            </tbody>
+        </table>
+    </main>
+
+</div>
+
+
+<!-- JavaScript ================================================= -->
+<!-- Bootstrap -->
+<script src="../static/seer/components/jquery/js/jquery.slim.min.js"></script>
+<script src="../static/seer/components/popper/js/popper.min.js"></script>
+<script src="../static/seer/components/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Fontawesome -->
+<script src="../static/seer/components/fontawesome/js/fa-solid.min.js"></script>
+<script src="../static/seer/components/fontawesome/js/fa-brands.min.js"></script>
+<script src="../static/seer/components/fontawesome/js/fa-regular.min.js"></script>
+<script src="../static/seer/components/fontawesome/js/fontawesome.min.js"></script>
+
+<!-- Seer core JavaScript -->
+<script src="../static/seer/js/seer.min.js"></script>
+
+</body>
+</html>
